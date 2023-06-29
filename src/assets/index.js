@@ -23,9 +23,14 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import man from "./man.png"
-
+import man from "./man.png";
+import gov from "./gov-removebg-preview.png";
+import woman from "./woman-removebg-preview.png"
+import require from './require-removebg-preview.png'
 export {
+  gov,
+  require,
+  woman,
   airbnb,
   bill,
   binance,
