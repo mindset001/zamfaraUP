@@ -29,7 +29,9 @@ const Hero = () => {
             <span className="text-gradient">Employment Portal </span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
-            <GetStarted />
+          <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
+        <GetStarted />
+        </a>
           </div>
         </div>
 
@@ -40,11 +42,13 @@ const Hero = () => {
         Creating opportunities & sourcing talent for gainful employment.
         </p>
       </div>
-
+      
     
 
       <div className={`ss:hidden ${styles.flexCenter}`}>
+        <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
         <GetStarted />
+        </a>
       </div>
     </section>
   );

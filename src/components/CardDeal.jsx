@@ -1,25 +1,22 @@
 import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
+import GetStarted from "./GetStarted";
 
 const CardDeal = () => (
   <section className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-        Find a better card deal <br className="sm:block hidden" /> in few easy
-        steps.
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.ç Aliquet ultrices ac, ametau.
-      </p>
+    {/* <div className={layout.sectionInfo}>
+    <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
+        <GetStarted />
+        </a>
 
-      <Button styles={`mt-10`} />
-    </div>
+   
+    </div> */}
 
-    <div className={layout.sectionImg}>
-      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
-    </div>
+<div className=" flex-row align justify-center">
+          <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
+        <GetStarted />
+        </a>
+          </div>
   </section>
 );
 
