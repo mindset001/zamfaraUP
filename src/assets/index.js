@@ -30,9 +30,11 @@ import require from './require-removebg-preview.png';
 import zam from "./zam-removebg-preview.png";
 import daud from "./daud.png";
 import sign from "./sign (1).png";
-import cutt from "./cutt.png"
+import cutt from "./cutt.png";
+import captain from './captain-removebg-preview.png'
 export {
   gov,
+  captain,
   cutt,
   sign,
   daud,

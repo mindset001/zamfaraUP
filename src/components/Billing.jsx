@@ -1,10 +1,10 @@
-import { apple, bill, google, require } from "../assets";
+import { apple, bill, google, require, captain } from "../assets";
 import styles, { layout } from "../style";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
-      <img src={require} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+      <img src={captain} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
