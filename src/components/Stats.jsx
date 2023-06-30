@@ -2,8 +2,14 @@ import { apply } from "../constants";
 import styles from "../style";
 
 const Stats = () => (
-  <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
-    {apply.map((step) => (
+  <section >
+    <div className="flex-row text-center py-10">
+      <h1 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white">
+        Steps To Apply
+      </h1>
+    </div>
+   <div className={`${styles.flexCenter} flex-row flex-wrap sm:mb-20 mb-6`}>
+   {apply.map((step) => (
       <div key={step.id} className={`flex-1 flex justify-start items-center flex-row m-3`} >
         <div>
         <div>
@@ -20,6 +26,7 @@ const Stats = () => (
         </div>
       </div>
     ))}
+   </div>
   </section>
 );
 

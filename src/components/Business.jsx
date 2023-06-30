@@ -26,7 +26,7 @@ const Business = () =>  (
       <h2 className={styles.heading2}>
       Addressing Unemployment:   <br className="sm:block hidden" /> A Key Priority in Building a Prosperous Zamfara State.
       </h2>
-      <p className={`${styles.paragraph} max-w-[700px] mt-5`}>
+      <p className={`${styles.paragraph} max-w-[700px] mt-5 text-justify`}>
       The Zamfara state government acknowledges the obstacles faced by women and youth, including challenges in education, employment, and gender biases. They are actively working towards empowering both women and youth by creating equal opportunities for them. By addressing cultural biases, dismantling traditional gender roles, and expanding opportunities in trade and employment, the government aims to enhance the access of women and youth to better jobs and economic opportunities. These efforts are crucial in promoting economic growth, improving the lives of citizens, and fostering the overall development of communities in Zamfara state.
       </p>
 

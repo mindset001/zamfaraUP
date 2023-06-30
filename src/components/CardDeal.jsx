@@ -3,21 +3,26 @@ import styles, { layout } from "../style";
 import GetStarted from "./GetStarted";
 
 const CardDeal = () => (
-  <section className={layout.section}>
-    {/* <div className={layout.sectionInfo}>
-    <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
-        <GetStarted />
-        </a>
+  <section>
+  <div  className ="flex-row align-center justify-center">
+  <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
+<GetStarted />
+</a>
+  </div>
+  </section>
+
+  // <section className={layout.section}>
+    // {/* <div className={layout.sectionInfo}>
+    // <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
+    //     <GetStarted />
+    //     </a>
 
    
-    </div> */}
+    // </div> */}
 
-<div className=" flex-row align justify-center">
-          <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">
-        <GetStarted />
-        </a>
-          </div>
-  </section>
+
+  // </section>
+ 
 );
 
 export default CardDeal;

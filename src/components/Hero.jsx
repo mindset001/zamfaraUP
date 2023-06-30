@@ -1,12 +1,12 @@
 import styles from "../style";
-import { discount, robot, woman,zam, daud, cutt } from "../assets";
+import { discount, robot, woman,zam, daud, cutt, capture } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col mt-[-10%] ${styles.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col mt-[0%] ${styles.paddingY}`}>
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={cutt} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
+        <img src={capture} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />

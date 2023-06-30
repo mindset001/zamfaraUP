@@ -31,9 +31,11 @@ import zam from "./zam-removebg-preview.png";
 import daud from "./daud.png";
 import sign from "./sign (1).png";
 import cutt from "./cutt.png";
-import captain from './captain-removebg-preview.png'
+import captain from './captain-removebg-preview.png';
+import capture from './Capture-removebg-preview.png';
 export {
   gov,
+  capture,
   captain,
   cutt,
   sign,

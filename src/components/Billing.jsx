@@ -16,39 +16,36 @@ const Billing = () => (
       <h2 className={styles.heading2}>
         Eligibility Status <br className="sm:block hidden" /> & Requirements
       </h2>
-      <ul>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      <ul className="list-disc text-justify">
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Must be a citizen of the state
-      </p>
+      
         </li>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Must be unemployed
-      </p>
+    
         </li>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Must have at least school leaving certifaicate
-      </p>
+     
         </li>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Must have a means of identification
-      </p>
+    
         </li>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
        Must have a Bank Verification Number
-      </p>
+    
         </li>
-        <li>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <li className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Must have a recent Passport Photograph
-      </p>
+      
         </li>
       </ul>
 
+        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+          Note: Applying is not a guarantee for employment.
+        </p>
      
     </div>
   </section>

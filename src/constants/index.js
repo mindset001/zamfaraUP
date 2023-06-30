@@ -5,18 +5,18 @@ export const navLinks = [
   //   id: "home",
   //   title: "Home",
   // },
-  // {
-  //   id: "features",
-  //   title: "Features",
-  // },
-  // {
-  //   id: "product",
-  //   title: "Product",
-  // },
-  // {
-  //   id: "clients",
-  //   title: "Clients",
-  // },
+  {
+    id: "contact",
+    title: "Features",
+  },
+  {
+    id: "shortlisted-applicants",
+    title: "Shortlisted Applicants",
+  },
+  {
+    id: "about-zep",
+    title: "About ZEP",
+  },
 ];
 
 export const features = [
