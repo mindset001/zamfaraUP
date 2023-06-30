@@ -1,12 +1,12 @@
 import styles from "../style";
-import { discount, robot, woman } from "../assets";
+import { discount, robot, woman,zam, daud, cutt } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <section id="home" className={`flex md:flex-row flex-col mt-[-10%] ${styles.paddingY}`}>
         <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={woman} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src={cutt} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
@@ -22,11 +22,10 @@ const Hero = () => {
             <span className="text-white">1 Month</span> Account
           </p>
         </div> */}
-         
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[50px] text-[52px] text-white ss:leading-[100.8px] leading-[55px]">
-          Zamfara <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Employment Portal </span>{" "}
+          The Pathways to <br className="sm:block hidden" />{" "}
+            <span className="text-gradient">Economic Revitalization </span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
           <a href="https://zamfara-mlcd.greenerp.ng/zamfara-state-tech-idea-form?new=1">

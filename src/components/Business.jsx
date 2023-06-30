@@ -1,7 +1,7 @@
 import { features } from "../constants";
 import styles, { layout } from "../style";
 import Button from "./Button";
-import {gov } from "../assets"
+import {gov, sign } from "../assets"
 
 // const FeatureCard = ({ icon, title, content, index }) => (
 //   <div className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"} feature-card`}>
@@ -19,11 +19,12 @@ import {gov } from "../assets"
 //   </div>
 // );
 
+""
 const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-      This Platform is for  <br className="sm:block hidden" /> Unemployed Women and Youth in Zamfara State.
+      Addressing Unemployment:   <br className="sm:block hidden" /> A Key Priority in Building a Prosperous Zamfara State.
       </h2>
       <p className={`${styles.paragraph} max-w-[700px] mt-5`}>
       The Zamfara state government acknowledges the obstacles faced by women and youth, including challenges in education, employment, and gender biases. They are actively working towards empowering both women and youth by creating equal opportunities for them. By addressing cultural biases, dismantling traditional gender roles, and expanding opportunities in trade and employment, the government aims to enhance the access of women and youth to better jobs and economic opportunities. These efforts are crucial in promoting economic growth, improving the lives of citizens, and fostering the overall development of communities in Zamfara state.
@@ -33,7 +34,7 @@ const Business = () =>  (
     </div>
 
       <div>
-      <img src={gov} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
+      <img src={sign} alt="billing" className="w-[100%] h-[90%] relative z-[5]" />
       </div>
     {/* <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (

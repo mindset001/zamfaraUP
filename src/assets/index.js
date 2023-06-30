@@ -26,9 +26,17 @@ import people03 from "./people03.png";
 import man from "./man.png";
 import gov from "./gov-removebg-preview.png";
 import woman from "./woman-removebg-preview.png"
-import require from './require-removebg-preview.png'
+import require from './require-removebg-preview.png';
+import zam from "./zam-removebg-preview.png";
+import daud from "./daud.png";
+import sign from "./sign (1).png";
+import cutt from "./cutt.png"
 export {
   gov,
+  cutt,
+  sign,
+  daud,
+  zam,
   require,
   woman,
   airbnb,
@@ -43,7 +51,7 @@ export {
   send,
   shield,
   star,
-  menu,
+  menu,  
   close,
   google,
   apple,
